@@ -22,7 +22,7 @@
   "window.zoomLevel": 1,
 
   "files.exclude": {
-    "**/.*": false,
+    "**/.*": true,
     "**/.venv": true,
     "**/__pycache__": true,
     "uv.lock": true
