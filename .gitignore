@@ -1,0 +1,15 @@
+# Virtual Environments (Built by uv sync)
+.venv/
+venv/
+ENV/
+
+# Python Cache & System Files
+**/__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# VS Code User-Specific Interface States
+# (Tracked for audit purposes)
