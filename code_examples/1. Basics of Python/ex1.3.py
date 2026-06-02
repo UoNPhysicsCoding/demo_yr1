@@ -21,3 +21,26 @@ z = tan(1.2)
 import numpy as np
 from scipy import special 
 x = special.factorial(np.arange(1,11))
+
+def get_primes_up_to(n):
+    """Returns a list of prime numbers up to n."""
+    if n < 2:
+        return []
+    
+    # Create a boolean list "is_prime" and initialize all entries to True
+    is_prime = [True] * (n + 1)
+    is_prime[0] = is_prime[1] = False
+    
+    # Sieve of Eratosthenes
+    for p in range(2, int(n**0.5) + 1):
+        if is_prime[p]:
+            # Mark multiples of p as False
+            for i in range(p * p, n + 1, p):
+                is_prime[i] = False
+                
+    # Collect all numbers that remain True
+    return [p for p in range(2, n + 1) if is_prime[p]]
+
+# Calculate and print primes up to 100
+primes = get_primes_up_to(100)
+print(primes)
