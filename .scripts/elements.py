@@ -30,27 +30,27 @@ from jupyterquiz import display_quiz
 
 def quiz(json_file):
     # A consistent, professional Blue/Indigo palette
-        color_dict = {
-            # Question backgrounds (Main theme)
-            '--jq-multiple-choice-bg': '#007bff',   # Strong Blue for Multiple Choice
-            '--jq-many-choice-bg': '#0056b3',       # Deeper Blue for Many Choice
-            '--jq-numeric-bg': '#2c3e50',           # Dark Navy for Numeric
-            
-            # Button and Text
-            '--jq-mc-button-bg': '#ffffff',         # Clean white buttons
-            '--jq-mc-button-border': '#dee2e6',     # Light grey border
-            '--jq-mc-button-inset-shadow': '#007bff', # Subtle blue highlight when pressed
-            '--jq-text-color': '#212529',           # Dark grey text for readability
-            
-            # Feedback Colors
-            '--jq-incorrect-color': '#dc3545',      # Soft red
-            '--jq-correct-color': '#28a745',        # Soft green
-            
-            # Numeric specific
-            '--jq-numeric-input-bg': '#f8f9fa',
-            '--jq-numeric-input-label': '#212529',
-            '--jq-numeric-input-shadow': '#007bff'
-        }
+    color_dict = {
+        # Question backgrounds (Main theme)
+        '--jq-multiple-choice-bg': '#007bff',   # Strong Blue for Multiple Choice
+        '--jq-many-choice-bg': '#0056b3',       # Deeper Blue for Many Choice
+        '--jq-numeric-bg': '#2c3e50',           # Dark Navy for Numeric
+        
+        # Button and Text
+        '--jq-mc-button-bg': '#ffffff',         # Clean white buttons
+        '--jq-mc-button-border': '#dee2e6',     # Light grey border
+        '--jq-mc-button-inset-shadow': '#007bff', # Subtle blue highlight when pressed
+        '--jq-text-color': '#212529',           # Dark grey text for readability
+        
+        # Feedback Colors
+        '--jq-incorrect-color': '#dc3545',      # Soft red
+        '--jq-correct-color': '#28a745',        # Soft green
+        
+        # Numeric specific
+        '--jq-numeric-input-bg': '#f8f9fa',
+        '--jq-numeric-input-label': '#212529',
+        '--jq-numeric-input-shadow': '#007bff'
+    }
 
 # Usage:
 # display_quiz("quiz1.json", colors=color_dict)
