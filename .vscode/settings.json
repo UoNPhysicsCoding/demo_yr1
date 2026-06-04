@@ -68,8 +68,9 @@
   // Limiting AI chat to the chat window. 
   "github.copilot.enable": {
     "*": true,
+    "plaintext": false,
     "markdown": false,
-    "plaintext": false
+    "scminput": false
   },
   //"github.copilot.chat.agentsControl.enabled": false,
   "github.copilot.chat.organizationCustomAgents.enabled": false,
