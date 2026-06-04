@@ -26,4 +26,5 @@ def button(button_text, problem_name):
 # Now call the function
 from jupyterquiz import display_quiz
 
-def quiz()
+def quiz(json_file):
+    
