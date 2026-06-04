@@ -82,7 +82,7 @@
   "github.copilot.codeLens.enabled": false,
 
   // To remove the AI features completely use this setting.
-  "chat.disableAIFeatures": false,
+  "chat.disableAIFeatures": true,
 
   
 
