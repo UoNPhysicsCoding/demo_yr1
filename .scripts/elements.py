@@ -52,6 +52,4 @@ def quiz(json_file):
         '--jq-numeric-input-shadow': '#007bff'
     }
 
-# Usage:
-# display_quiz("quiz1.json", colors=color_dict)
     display_quiz(GITHUB_REPO_PATH + json_file, colors=color_dict)
