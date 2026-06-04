@@ -72,8 +72,8 @@
     "plaintext": false
   },
   //"github.copilot.chat.agentsControl.enabled": false,
-  //"github.copilot.chat.organizationCustomAgents.enabled": false,
-  //"github.copilot.chat.agents.enabled": false,
+  "github.copilot.chat.organizationCustomAgents.enabled": false,
+  /"github.copilot.chat.agents.enabled": false,
   //"github.copilot.chat.allowAgents": false,
   //"github.copilot.chat.claudeAgent.enabled": false,
   //"github.copilot.chat.backgroundAgent.enabled": false,
