@@ -24,3 +24,6 @@ def button(button_text, problem_name):
     return HTML(button_html)
 
 # Now call the function
+from jupyterquiz import display_quiz
+
+def quiz()
