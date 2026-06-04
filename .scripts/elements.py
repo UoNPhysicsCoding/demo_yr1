@@ -27,4 +27,4 @@ def button(button_text, problem_name):
 from jupyterquiz import display_quiz
 
 def quiz(json_file):
-    
+    display_quiz(GITHUB_REPO_PATH + json_file)
