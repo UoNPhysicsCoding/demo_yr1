@@ -49,7 +49,7 @@
   // ==========================================
   "workbench.startupEditor": "readme",
   "explorer.compactFolders": false,
-  "editor.inlineSuggest.enabled": false,
+  "editor.inlineSuggest.enabled": true,
   "git.enabled": true,
   "git.ignoreMissingGitWarning": true,
   "scm.alwaysShowProviders": false,
