@@ -70,7 +70,6 @@
     "*": true,
     "plaintext": false,
     "markdown": false,
-    "scminput": false
   },
   //"github.copilot.chat.agentsControl.enabled": false,
   "github.copilot.chat.organizationCustomAgents.enabled": false,
