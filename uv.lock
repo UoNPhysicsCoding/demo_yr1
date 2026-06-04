@@ -965,6 +965,15 @@ wheels = [
 ]
 
 [[package]]
+name = "jupyterquiz"
+version = "2.9.6.4"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/b7/c1/125473952e47ec0768e290ad237129453250ddbc021582ed7cf1ad1dc433/jupyterquiz-2.9.6.4.tar.gz", hash = "sha256:43a959c4ac3786fc7ddaf0a11700c471bfb086d263b417c2d16a0494fd5066e7", size = 1406724, upload-time = "2026-03-05T20:37:07.809Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/b3/52/bc858b1665d0dec3a2511f4e6f5c18ea85c0977563d624d597c95d6d0fd7/jupyterquiz-2.9.6.4-py2.py3-none-any.whl", hash = "sha256:f8c4418f6c827454523fc882a30d744b585cb58ac1ae277769c3059d04fc272b", size = 25916, upload-time = "2026-03-05T20:37:06.596Z" },
+]
+
+[[package]]
 name = "kiwisolver"
 version = "1.5.0"
 source = { registry = "https://pypi.org/simple" }
@@ -2107,6 +2116,7 @@ name = "scipython"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
+    { name = "jupyterquiz" },
     { name = "matplotlib" },
     { name = "numpy" },
     { name = "pandas" },
@@ -2122,6 +2132,7 @@ dev = [
 
 [package.metadata]
 requires-dist = [
+    { name = "jupyterquiz", specifier = ">=2.9.6.4" },
     { name = "matplotlib", specifier = ">=3.8.0" },
     { name = "numpy", specifier = ">=1.26.0" },
     { name = "pandas", specifier = ">=2.2.0" },
