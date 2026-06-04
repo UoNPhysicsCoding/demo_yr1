@@ -13,7 +13,7 @@
   "jupyter.interactiveWindow.creationMode": "perNotebook",
   "notebook.cellToolbarLocation": {
     "default": "right",
-    "jupyter-notebook": "left"
+    "jupyter-notebook": "right"
   },
 
   // ==========================================
